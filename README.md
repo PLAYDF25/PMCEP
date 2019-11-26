@@ -26,16 +26,7 @@ end
     os.exit()
    end
 end
-if gg.VERSION > '87.4' then
-gg.alert('⚠️ Please Update\nGameGuardian PMC Mod!\n________________________\nOfficial telegram group:\nhttps://t.me/PUBG_MOBILE_CHEAT\nCreator: https://t.me/PLAYDF25', '🔴 EXIT ⛔')
-print('⚠️ Please Update\nGameGuardian PMC Mod!\n________________________\nOfficial telegram group:\nhttps://t.me/PUBG_MOBILE_CHEAT\nCreator: https://t.me/PLAYDF25')
-os.exit()
-end
-if gg.VERSION < '87.4' then
-gg.alert('⚠️ Please Update\nGameGuardian PMC Mod!\n________________________\nOfficial telegram group:\nhttps://t.me/PUBG_MOBILE_CHEAT\nCreator: https://t.me/PLAYDF25', '🔴 EXIT ⛔')
-print('⚠️ Please Update\nGameGuardian PMC Mod!\n________________________\nOfficial telegram group:\nhttps://t.me/PUBG_MOBILE_CHEAT\nCreator: https://t.me/PLAYDF25')
-os.exit()
-end
+
 
 function startscript()
 gg.setVisible(false)
@@ -1468,7 +1459,7 @@ end
 function zoom8xonon()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("15", gg.TYPE_FLOAT)
@@ -1479,7 +1470,7 @@ end
 function zoom4xonon()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("19", gg.TYPE_FLOAT)
@@ -1490,7 +1481,7 @@ end
 function zoom6xonon()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("17", gg.TYPE_FLOAT)
@@ -1501,7 +1492,7 @@ end
 function zoom15xonon()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("60;55;1.9618179e-44 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(300)
 gg.editAll("9", gg.TYPE_FLOAT)
